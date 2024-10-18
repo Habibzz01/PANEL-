@@ -1,0 +1,18 @@
+debug: false
+uuid: 883023b3-f7b6-43dc-aef9-33195a81eafa
+token_id: vPeiAT3pAWquedJJ
+token: CmAUALDLZuYIQ530EmHojxC7Ksy6A39IyMrVm2RsMJMa35iUPaVAw7Qugmpl1giN
+api:
+  host: 0.0.0.0
+  port: 8080
+  ssl:
+    enabled: true
+    cert: /etc/letsencrypt/live/node.jubilant-space-capybara-v66577xxwjq7fpxjr-80.app.github.dev/fullchain.pem
+    key: /etc/letsencrypt/live/node.jubilant-space-capybara-v66577xxwjq7fpxjr-80.app.github.dev/privkey.pem
+  upload_limit: 100
+system:
+  data: /var/lib/pterodactyl/volumes
+  sftp:
+    bind_port: 2022
+allowed_mounts: []
+remote: 'https://jubilant-space-capybara-v66577xxwjq7fpxjr-80.app.github.dev'
